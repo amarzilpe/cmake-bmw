@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Building...'
+                echo 'Building.....'
                 sh 'cd $HOME/workspace/cmake'
                 sh './test.sh'
             }
